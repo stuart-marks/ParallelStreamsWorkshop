@@ -1,0 +1,157 @@
+# Run progress: 0.00% complete, ETA 00:01:00
+# VM invoker: /Users/src/jdk/jdk8-b132.jdk/Contents/Home/jre/bin/java
+# VM options: <none>
+# Fork: 1 of 1
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: bench.Bench.parAtomic
+# Warmup Iteration   1: 0.567 ops/s
+# Warmup Iteration   2: 0.600 ops/s
+# Warmup Iteration   3: 0.617 ops/s
+# Warmup Iteration   4: 0.600 ops/s
+# Warmup Iteration   5: 0.600 ops/s
+Iteration   1: 0.600 ops/s
+Iteration   2: 0.617 ops/s
+Iteration   3: 0.600 ops/s
+Iteration   4: 0.617 ops/s
+Iteration   5: 0.600 ops/s
+
+Result : 0.607 ±(99.9%) 0.035 ops/s
+  Statistics: (min, avg, max) = (0.600, 0.607, 0.617), stdev = 0.009
+  Confidence interval (99.9%): [0.572, 0.642]
+
+
+# Run progress: 16.67% complete, ETA 00:01:25
+# VM invoker: /Users/src/jdk/jdk8-b132.jdk/Contents/Home/jre/bin/java
+# VM options: <none>
+# Fork: 1 of 1
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: bench.Bench.parReduce
+# Warmup Iteration   1: 6.750 ops/s
+# Warmup Iteration   2: 7.183 ops/s
+# Warmup Iteration   3: 7.167 ops/s
+# Warmup Iteration   4: 7.050 ops/s
+# Warmup Iteration   5: 7.117 ops/s
+Iteration   1: 6.983 ops/s
+Iteration   2: 7.100 ops/s
+Iteration   3: 6.883 ops/s
+Iteration   4: 7.100 ops/s
+Iteration   5: 7.550 ops/s
+
+Result : 7.123 ±(99.9%) 0.982 ops/s
+  Statistics: (min, avg, max) = (6.883, 7.123, 7.550), stdev = 0.255
+  Confidence interval (99.9%): [6.141, 8.106]
+
+
+# Run progress: 33.33% complete, ETA 00:00:57
+# VM invoker: /Users/src/jdk/jdk8-b132.jdk/Contents/Home/jre/bin/java
+# VM options: <none>
+# Fork: 1 of 1
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: bench.Bench.parSum
+# Warmup Iteration   1: 16.433 ops/s
+# Warmup Iteration   2: 17.567 ops/s
+# Warmup Iteration   3: 18.733 ops/s
+# Warmup Iteration   4: 16.667 ops/s
+# Warmup Iteration   5: 18.233 ops/s
+Iteration   1: 16.483 ops/s
+Iteration   2: 18.117 ops/s
+Iteration   3: 17.717 ops/s
+Iteration   4: 18.300 ops/s
+Iteration   5: 17.617 ops/s
+
+Result : 17.647 ±(99.9%) 2.728 ops/s
+  Statistics: (min, avg, max) = (16.483, 17.647, 18.300), stdev = 0.708
+  Confidence interval (99.9%): [14.919, 20.374]
+
+
+# Run progress: 50.00% complete, ETA 00:00:39
+# VM invoker: /Users/src/jdk/jdk8-b132.jdk/Contents/Home/jre/bin/java
+# VM options: <none>
+# Fork: 1 of 1
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: bench.Bench.seqAtomic
+# Warmup Iteration   1: 0.683 ops/s
+# Warmup Iteration   2: 0.767 ops/s
+# Warmup Iteration   3: 0.733 ops/s
+# Warmup Iteration   4: 0.750 ops/s
+# Warmup Iteration   5: 0.750 ops/s
+Iteration   1: 0.750 ops/s
+Iteration   2: 0.750 ops/s
+Iteration   3: 0.767 ops/s
+Iteration   4: 0.750 ops/s
+Iteration   5: 0.750 ops/s
+
+Result : 0.753 ±(99.9%) 0.029 ops/s
+  Statistics: (min, avg, max) = (0.750, 0.753, 0.767), stdev = 0.007
+  Confidence interval (99.9%): [0.725, 0.782]
+
+
+# Run progress: 66.67% complete, ETA 00:00:26
+# VM invoker: /Users/src/jdk/jdk8-b132.jdk/Contents/Home/jre/bin/java
+# VM options: <none>
+# Fork: 1 of 1
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: bench.Bench.seqReduce
+# Warmup Iteration   1: 3.983 ops/s
+# Warmup Iteration   2: 4.533 ops/s
+# Warmup Iteration   3: 4.467 ops/s
+# Warmup Iteration   4: 4.250 ops/s
+# Warmup Iteration   5: 4.533 ops/s
+Iteration   1: 4.717 ops/s
+Iteration   2: 4.650 ops/s
+Iteration   3: 4.750 ops/s
+Iteration   4: 4.600 ops/s
+Iteration   5: 4.750 ops/s
+
+Result : 4.693 ±(99.9%) 0.255 ops/s
+  Statistics: (min, avg, max) = (4.600, 4.693, 4.750), stdev = 0.066
+  Confidence interval (99.9%): [4.438, 4.948]
+
+
+# Run progress: 83.33% complete, ETA 00:00:12
+# VM invoker: /Users/src/jdk/jdk8-b132.jdk/Contents/Home/jre/bin/java
+# VM options: <none>
+# Fork: 1 of 1
+# Warmup: 5 iterations, 1 s each
+# Measurement: 5 iterations, 1 s each
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: bench.Bench.seqSum
+# Warmup Iteration   1: 7.750 ops/s
+# Warmup Iteration   2: 11.650 ops/s
+# Warmup Iteration   3: 11.783 ops/s
+# Warmup Iteration   4: 11.467 ops/s
+# Warmup Iteration   5: 11.800 ops/s
+Iteration   1: 11.517 ops/s
+Iteration   2: 11.817 ops/s
+Iteration   3: 11.433 ops/s
+Iteration   4: 11.617 ops/s
+Iteration   5: 11.533 ops/s
+
+Result : 11.583 ±(99.9%) 0.561 ops/s
+  Statistics: (min, avg, max) = (11.433, 11.583, 11.817), stdev = 0.146
+  Confidence interval (99.9%): [11.022, 12.145]
+
+
+Benchmark             Mode   Samples         Mean   Mean error    Units
+b.Bench.seqAtomic    thrpt         5        0.753        0.029    ops/s
+b.Bench.seqReduce    thrpt         5        4.693        0.255    ops/s
+b.Bench.seqSum       thrpt         5       11.583        0.561    ops/s
+b.Bench.parAtomic    thrpt         5        0.607        0.035    ops/s
+b.Bench.parReduce    thrpt         5        7.123        0.982    ops/s
+b.Bench.parSum       thrpt         5       17.647        2.728    ops/s
